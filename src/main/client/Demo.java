@@ -1,7 +1,9 @@
 package client;
 
+import structures.Node;
+
 /**
- * Demo for the program.
+ * Demo for the visitor proxy assignment.
  * 
  * @author
  * @version
@@ -15,6 +17,7 @@ public class Demo
      */
     public static void main(String[] args)
     {
-
+        Node list = Node.getRandomList(25);
+        Node.printList(list);
     }
 }
